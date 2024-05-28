@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hp-ink"
+version = "0.1.0"
+description = ""
+authors = ["Author Name <author@example.com>"]
+# readme = "README.md"
+# license = "BSD"
+packages = [
+  { include = "hp_ink" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
